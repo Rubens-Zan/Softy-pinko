@@ -14,19 +14,29 @@
 </head>
 
 <body>
-    <!--Nav Bar-->
     <header class="header-area">
-        <nav class="navbar navbar-expand-xl navbar-light bg-light navbar-container ">
+        <nav class="navbar-desktop">
+            <ul>
+                <li class="logo"><a href="#"><img src="static/imagens/logo.png" alt="Softy Pinko"></a></li> 
+                <li><a class="active home black" href="#home">Home</a></li>
+                <li><a class="about black" href="#about">About</a> </li>
+                <li><a class="work black" href="#work">Work Process</a></li>
+                <li><a class="testimonials black" href="#testimonials">Testimonials</a></li>
+                <li><a class="price black" href="#price">Pricing Tables</a></li>
+                <li><a class="blog black" href="#blog">Blog Entries</a></li>
+                <li><a class="form black" href="#form">Contact Us</a> </li>
+            </ul>
+        </nav>
+        
+        <nav class="navbar navbar-expand-xl navbar-light bg-light navbar-container d-lg-none "  ><!--navbar-mobile -->
             <div class="container">
-                <a class="navbar-brand h1 mb-0" href="#"><img src="static/imagens/logo.png" alt="Softy Pinko"></a>
-                <!--Logo end-->
+                <a class="navbar-brand h1 mb-0" href="#"><img src="static/imagens/logo.png" alt="Softy Pinko"></a><!--Logo-->
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse" id="navbarSite">
-                    <!--navbar begin-->
+                <div class="collapse navbar-collapse" id="navbarSite"><!--navbar begin-->
 
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item"><a class="nav-link mr-2 ml-2 " href="#home" class="active">Home</a> </li>
@@ -39,15 +49,12 @@
                         <li class="nav-item"><a class="nav-link mr-2 ml-2 " href="#"></a></li>
                     </ul>
                 </div>
-            </div>
-            <!--Container-->
-            <!--Nav Bar-->
-        </nav>
+            </div><!--Container-->
+        </nav><!--Nav Bar-->
 
     </header>
 
-    <!--home-->
-    <div class="home-banner" id="home">
+    <div class="home-banner sessao" id="home"><!--home-->
         <div class="banner-text">
             <div class="container">
                 <div class="row">
@@ -59,13 +66,11 @@
                         <a href="#about" class="button-banner">DISCOVER MORE</a>
                     </div>
                 </div>
-            </div>
-        </div>
-        <!--home-->
-    </div>
+            </div><!--container-->
+        </div>      <!--banner-text-->  
+    </div><!--home-->
 
-    <!--cards 3-->
-    <section class="section home-feature">
+    <section class="section home-feature"><!--home-features-->
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 my-4">
@@ -111,11 +116,10 @@
                 </div>
             </div>
         </div>
-        <!--cards 3-->
-    </section>
+    </section><!--home-features-->
 
-    <!--Section About-->
-    <section class="section-imagem-esquerda" id="about">
+  
+    <section class="section-imagem-esquerda sessao" id="about"><!--Section About-->
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-md-12 col-sm-12 align-self-center"
@@ -139,11 +143,10 @@
                 </div>
             </div>
         </div>
-        <!--Projeto Imagem na Esquerda-->
-    </section>
+    </section><!--Section About-->
 
-    <!--Projetos Imagem na Direita-->
-    <section class="section-imagem-direita">
+    
+    <section class="section-imagem-direita"><!--Section About2-->
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12 align-self-center mobile-bottom-fix">
@@ -162,12 +165,10 @@
                 </div>
             </div>
         </div>
-        <!--Projetos Imagem na Direita-->
-    </section>
-    <!--About-->
+    </section><!--Section About2-->
 
-    <!--Work Process inicio-->
-    <section class="banner-6colunas" id="work">
+    
+    <section class="banner-6colunas sessao" id="work"><!--Work Process -->
         <div class="container">
             <div class="row">
                 <div class="offset-xl-3 col-xl-6 offset-lg-2 col-lg-8 col-md-12 col-sm-12">
@@ -248,17 +249,15 @@
                                     </p>
                                 </button>
                             </div>
-                        </div>
+                        </div> 
                     </div>
-                </div>
-            </div>
-        </div>
-        <!--6 cards-->
-    </section>
-    <!--Work Process fim-->
+                </div><!--buttons-->
+            </div><!--row-->
+        </div><!--container-->
+    </section><!--Work Process -->
 
-    <!--Testimonials-->
-    <section class="cards-pessoas" id="testimonials">
+    
+    <section class="cards-pessoas sessao" id="testimonials"><!--Testimonials-->
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -326,12 +325,10 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <!--Testimonials-->
-    </section>
-
-    <!--Section Pricing-tables-->
-    <section class="section-pricing" id="price">
+        </div>       
+    </section><!--Testimonials-->
+    
+    <section class="section-pricing sessao" id="price"><!--Section Pricing-tables-->
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -346,8 +343,8 @@
                     </div>
                 </div>
             </div>
-            <!--Card do Preço-->
-            <div class="row">
+            
+            <div class="row"><!--Pricing cards-->
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="card-preco">
                         <div class="header-preco">
@@ -420,67 +417,51 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <!--Card do Preço-->
+            </div><!--Pricing cards-->
         </div>
-        <!--Section Pricing-->
-    </section>
-
-
-
-    <!-- Section Fun Facts-->
-    <section class="funfacts">
+    </section><!--Section Pricing-->
+   
+    <section class="funfacts"><!-- Section Fun Facts-->
         <div class="fun-content">
             <div class="container">
                 <div class="row ">
-                    <!--mx-50 my-50 px-50 py-50-->
 
                     <div class="col-lg-3 col-sm-12 col-md-6">
                         <div class="fun-item decoration-bottom">
                             <strong> 126 </strong>
                             <span> Projects </span>
                         </div>
-                    </div>
-                    <!--col 1-->
+                    </div><!--col 1-->
 
-
-                    <div class="col-lg-3 col-sm-12 col-md-6  ">
-                        <!--text-center text-white-->
+                    <div class="col-lg-3 col-sm-12 col-md-6">
                         <div class="fun-item decoration-top">
                             <strong>63</strong>
                             <span>Happy Clients</span>
                         </div>
-                    </div>
-                    <!--col 2-->
+                    </div><!--col 2-->
 
                     <div class="col-lg-3 col-sm-12 col-md-6">
-                        <!--text-center text-white-->
                         <div class="fun-item decoration-bottom">
                             <strong>18</strong>
                             <span>Award Wins</span>
                         </div>
-                    </div>
-                    <!--col 3-->
+                    </div><!--col 3-->
 
                     <div class="col-lg-3 col-sm-12 col-md-6">
-                        <!--text-center text-white-->
                         <div class="fun-item">
                             <strong>27</strong>
                             <span>Countries</span>
                         </div>
-                    </div>
-                    <!--col 4-->
+                    </div><!--col 4-->
                 </div> <!-- row -->
             </div> <!-- container -->
         </div>
 
-    </section>
-    <!--Section Fun Facts-->
+    </section><!--Section Fun Facts-->
 
-    <!-- Blog Entries -->
-    <section class="section-blog" id="blog">
+    
+    <section class="section-blog sessao" id="blog"><!-- Blog Entries -->
         <div class="container">
-            <!--  Section Title Start  -->
             <div class="row">
                 <div class="col-lg-12">
                     <div class="titulo-section">
@@ -494,7 +475,6 @@
                     </div>
                 </div>
             </div>
-            <!-- ***** Section Title End ***** -->
 
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-12">
@@ -544,11 +524,9 @@
                 </div>
             </div>
         </div>
-    </section>
-    <!-- ***** Blog End ***** -->
-
-    <!--Contact Us-->
-    <form id="form">
+    </section><!-- Blog End  -->
+    
+    <form class="sessao" id="form"><!--Contact Us-->
         <fieldset>
             <section class="section-pricing">
                 <div class="container-fluid">
@@ -595,8 +573,7 @@
                                 </div>
                             </form>
 
-                            <div class="row mt-5 ml-1">
-                                <!-- <a class="form-button-purple" type="submit" acao="enviar">SEND MESSAGE</a> -->
+                            <div class="row mt-5 ml-1">                         
                                 <input class="form-button-purple" type="submit" name="acao" value="SEND MESSAGE">
                             </div>
                         </div>
@@ -604,14 +581,9 @@
                 </div>
             </section>
         </fieldset>
-    </form>
+    </form><!--Contact Us-->
 
-    <!--Contact Us-->
-
-    <footer>
-
-        <!--footer-->
-
+    <footer><!--footer-->
         <div id="copy-area">
             <div class="container">
                 <div class="col-lg-12 my-4">
@@ -634,11 +606,12 @@
                     </div>
                 </div>
             </div>
+        </div>    
     </footer>
     <script src="static/node_modules/jquery/dist/jquery.js"></script>
     <script src="static/node_modules/popper.js/dist/popper.js"></script>
+    <script src="static/js/menu_com_scroll.js"></script>
     <script src="static/node_modules/bootstrap/dist/js/bootstrap.js"></script>
-
 </body>
 
 </html>
